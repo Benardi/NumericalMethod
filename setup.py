@@ -10,7 +10,7 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='sample',
+    name='numerical_methods',
     version='0.1.0',
     description='Implementation of Numerical Methods',
     long_description=readme,
