@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from . import helpers
+from equation_solution import helpers
 
 def get_hmm():
     """Get a thought."""

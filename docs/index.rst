@@ -11,24 +11,19 @@ Contents:
 .. toctree:: 
    :maxdepth: 2
    
- 
-.. automodule:: helpers 
-   :members:
-
-.. automodule:: core
-   :members:
-
 .. automodule:: equation_solution.core 
    :members:
+
 
 .. automodule:: linear_solver.core 
    :members:
 
-.. automodule:: interpolation.core 
+.. automodule:: integration.core 
    :members:
 
 .. automodule:: interpolation.core 
    :members:
+
 
 Indices and tables
 ==================
