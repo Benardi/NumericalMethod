@@ -1,6 +1,14 @@
+[![Build Status](https://travis-ci.com/Benardi/numerical_methods.svg?branch=master)](https://travis-ci.com/Benardi/numerical_methods)
+[![Python 3.x](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/downloads/release/python-370/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # Numerical Methods
 
 Implementation of classic numerical methods in Python
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
@@ -13,6 +21,38 @@ sudo apt install python3
 sudo apt install python3-pip
 
 ```
+**Optionally**: venv
+
+### Installing
+
+Clone and enter the directory using cd
+
+```
+git clone https://github.com/Benardi/numerical_methods
+
+cd ToPresente
+```
+
+Use venv to keep dependencies tidy, but you may opt not to use it.
+Create a new directory inside the project directory where will keep the dependencies as 'venv'.
+
+```
+python3 -m venv ./venv
+```
+
+Source the venv to activate it.
+
+```
+source venv/bin/activate
+```
+
+Use pip to install the requirements
+
+```
+pip3 install -r requirements.txt
+```
+
+
 
 # Running the tests
 
@@ -21,6 +61,13 @@ To execute tests simply run
 ```
 python3 setup.py test
 ``` 
+
+or 
+
+```
+nosetests tests
+``` 
+
 
 ## Authors
 
